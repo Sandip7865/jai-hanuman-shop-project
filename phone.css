@@ -1,0 +1,46 @@
+/* navigation section */
+#navbar{
+    flex-direction: column;
+}
+/* home section */
+section#home {
+    height:  351px;
+    padding: 20px;
+}
+section#home::before {
+    height: 477px;
+}
+
+section#home p {
+   font-size: 11px;
+}
+
+/* services section */
+#services{
+flex-direction: column;
+}
+#services .box{
+
+}
+    
+
+
+/* clinet section */
+#clints{
+   flex-wrap: wrap;
+
+}
+#clints img{
+    width: 50px;
+    padding: 12px;
+ 
+ }
+
+/* contact section */
+#contact{
+
+}
+/* utility class */
+h1.h-primary{
+    font-size: 33px;
+}
